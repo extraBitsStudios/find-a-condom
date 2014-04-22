@@ -3,7 +3,7 @@
   "version": "2.0.2",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sahat/hackathon-starter.git"
+    "url": "https://github.com/Pinesy/fuzzy-octopops.git"
   },
   "scripts": {
     "start": "node app.js",
