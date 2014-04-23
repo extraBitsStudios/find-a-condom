@@ -1,219 +1,967 @@
 {
-  "type": "FeatureCollection",
-  "features": [
-
-  {
-      "type": "Feature",
-      "id": "aHope",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.560703,
-          35.593229
-        ]
-      },
-      "geometry_name": "shape",
-      "properties": {
-        "name": "A-Hope",
-        "address": "218 Patton Ave",
-        "city":"Asheville",
-		"state":"NC",
-		"zip":"28801",
-		"phone":"828-258-1695"
-      }
+    "type"    : "FeatureCollection",
+    "features": [
+        {
+            "type"         : "Feature",
+            "id"           : "aHope",
+            "geometry"     : {
+                "type"       : "Point",
+                "coordinates": [
+                    -82.560703,
+                    35.593229
+                ]
+            },
+            "geometry_name": "shape",
+            "properties"   : {
+                "name"   : "A-Hope",
+                "address": "218 Patton Ave",
+                "city"   : "Asheville",
+                "state"  : "NC",
+                "zip"    : "28801",
+                "phone"  : "828-258-1695"
+            }
+        },
+        {
+            "type"         : "Feature",
+            "id"           : "babygirls",
+            "geometry"     : {
+                "type"       : "Point",
+                "coordinates": [
+                    -82.5544793999999,
+                    35.6102349
+                ]
+            },
+            "geometry_name": "shape",
+            "properties"   : {
+                "name"   : "Babygirl's",
+                "address": "329 Merrimon Ave",
+                "city"   : "Asheville",
+                "state"  : "NC",
+                "zip"    : "28801",
+                "phone"  : "828-232-4474"
+            }
+        },
+        {
+            "type"         : "Feature",
+            "id"           : "battleCatCoffeeBar",
+            "geometry"     : {
+                "type"       : "Point",
+                "coordinates": [
+                    -82.5767129999999,
+                    35.577774
+                ]
+            },
+            "geometry_name": "shape",
+            "properties"   : {
+                "name"   : "BattleCat Cofee Bar",
+                "address": "232 Haywood Rd",
+                "city"   : "Asheville",
+                "state"  : "NC",
+                "zip"    : "28806",
+                "phone"  : "828-713-3885"
+            }
+        },
+        {
+            "type"         : "Feature",
+            "id"           : "clubHairspray",
+            "geometry"     : {
+                "type"       : "Point",
+                "coordinates": [
+                    -82.5826543902636,
+                    35.5775102795123
+                ]
+            },
+            "geometry_name": "shape",
+            "properties"   : {
+                "name"   : "Club Hairspray",
+                "address": "38 N French Broad Ave",
+                "city"   : "Asheville",
+                "state"  : "NC",
+                "zip"    : "28801",
+                "phone"  : "828-258-2027"
+            }
+        },
+        {
+            "type"         : "Feature",
+            "id"           : "elCentro",
+            "geometry"     : {
+                "type"       : "Point",
+                "coordinates": [
+                    -82.457969,
+                    35.318338
+                ]
+            },
+            "geometry_name": "shape",
+            "properties"   : {
+                "name"   : "El Centro",
+                "address": "508 N Grove St",
+                "city"   : "Hendersonvile",
+                "state"  : "NC",
+                "zip"    : "28792",
+                "phone"  : "828-693-1981"
+            }
+        },
+        {
+            "type"         : "Feature",
+            "id"           : "elCharitoMexicanStore",
+            "geometry"     : {
+                "type"       : "Point",
+                "coordinates": [-82.3760179999999, 35.328724]
+            },
+            "geometry_name": "shape",
+            "properties"   : {
+                "name"   : "El Charrito Mexican Store",
+                "address": "2000 Dana Rd",
+                "city"   : "Hendersonville",
+                "state"  : "NC",
+                "zip"    : "28792",
+                "phone"  : "828-685-8833"
+            }
+        },
+        {
+            "type"         : "Feature",
+            "id"           : "firestormCafe",
+            "geometry"     : {
+                "type"       : "Point",
+                "coordinates": [-82.555228, 35.594008]
+            },
+            "geometry_name": "shape",
+            "properties"   : {
+                "name"   : "Firestorm Cafe",
+                "address": "48 Commerce St",
+                "city"   : "Asheville",
+                "state"  : "NC",
+                "zip"    : "28801",
+                "phone"  : "828-255-8115"
+            }
+        },
+        {
+            "type"         : "Feature",
+            "id"           : "flavorzBarberShop",
+            "geometry"     : {
+                "type"       : "Point",
+                "coordinates": [-82.5523799999999, 35.58632]
+            },
+            "geometry_name": "shape",
+            "properties"   : {
+                "name"   : "Flavorz Barber Shop",
+                "address": "255 Short Coxe Ave",
+                "city"   : "Asheville",
+                "state"  : "NC",
+                "zip"    : "28801",
+                "phone"  : "828-254-6455"
+            }
+        },
+        {
+            "type"         : "Feature",
+            "id"           : "goodStuffCafe",
+            "geometry"     : {
+                "type"       : "Point",
+                "coordinates": [-82.6851083999999, 35.7977721]
+            },
+            "geometry_name": "shape",
+            "properties"   : {
+                "name"   : "Good Stuff Cafe",
+                "address": "68 N Main St",
+                "city"   : "Marshall",
+                "state"  : "NC",
+                "zip"    : "28753",
+                "phone"  : "828-649-9711"
+            }
+        },
+        {
+            "type"         : "Feature",
+            "id"           : "greensMiniMart",
+            "geometry"     : {
+                "type"       : "Point",
+                "coordinates": [-82.562985, 35.579237]
+            },
+            "geometry_name": "shape",
+            "properties"   : {
+                "name"   : "Green's Mini-Mart",
+                "address": "414 Depot St",
+                "city"   : "Asheville",
+                "state"  : "NC",
+                "zip"    : "28801",
+                "phone"  : "828-252-4440"
+            }
+        },
+        {
+            "type"         : "Feature",
+            "id"           : "harvestMoon",
+            "geometry"     : {
+                "type"       : "Point",
+                "coordinates": [-82.828118, 35.892769]
+            },
+            "geometry_name": "shape",
+            "properties"   : {
+                "name"   : "Harvest Moon",
+                "address": "81 Bridge Street",
+                "city"   : "Hot Springs",
+                "state"  : "NC",
+                "zip"    : "28743",
+                "phone"  : "828-622-3343"
+            }
+        },
+        {
+            "type"         : "Feature",
+            "id"           : "hillcrestApartments",
+            "geometry"     : {
+                "type"       : "Point",
+                "coordinates": [-82.5707901, 35.5936664]
+            },
+            "geometry_name": "shape",
+            "properties"   : {
+                "name"   : "Hillcrest Apartments",
+                "address": "100 Atkinson St",
+                "city"   : "Asheville",
+                "state"  : "NC",
+                "zip"    : "28801",
+                "phone"  : "828-257-2666"
+            }
+        },
+        {
+            "type"         : "Feature",
+            "id"           : "indoApparelGifts",
+            "geometry"     : {
+                "type"       : "Point",
+                "coordinates": [-82.5517429999999, 35.594205]
+            },
+            "geometry_name": "shape",
+            "properties"   : {
+                "name"   : "Indo Apparel & Gifts",
+                "address": "9 Biltmore Ave",
+                "city"   : "Asheville",
+                "state"  : "NC",
+                "zip"    : "28801",
+                "phone"  : "828-281-8140"
+            }
+        },
+        {
+            "type"         : "Feature",
+            "id"           : "instantKarma",
+            "geometry"     : {
+                "type"       : "Point",
+                "coordinates": [-82.5536804999999, 35.5977542]
+            },
+            "geometry_name": "shape",
+            "properties"   : {
+                "name"   : "Instant Karma",
+                "address": " 78 N Lexington Ave",
+                "city"   : "Asheville",
+                "state"  : "NC",
+                "zip"    : "28801",
+                "phone"  : "828-285-8999"
+            }
+        },
+        {
+            "type"         : "Feature",
+            "id"           : "izzysCoffeeDen",
+            "geometry"     : {
+                "type"       : "Point",
+                "coordinates": [-82.5533904999999, 35.5973845]
+            },
+            "geometry_name": "shape",
+            "properties"   : {
+                "name"   : "Izzy's Coffee Den",
+                "address": " 74 N Lexington Ave",
+                "city"   : "Asheville",
+                "state"  : "NC",
+                "zip"    : "28801",
+                "phone"  : "828-258-2004"
+            }
+        },
+        {
+            "type"         : "Feature",
+            "id"           : "jrsBarberShop",
+            "geometry"     : {
+                "type"       : "Point",
+                "coordinates": [-82.5513373, 35.5937405]
+            },
+            "geometry_name": "shape",
+            "properties"   : {
+                "name"   : "JR'S Barber Shop",
+                "address": "1 Eagle St",
+                "city"   : "Asheville",
+                "state"  : "NC",
+                "zip"    : "28801",
+                "phone"  : "828-251-2200"
+            }
+        },
+        {
+            "type"         : "Feature",
+            "id"           : "klondykeApartments",
+            "geometry"     : {
+                "type"       : "Point",
+                "coordinates": [-82.5714256, 35.6083994]
+            },
+            "geometry_name": "shape",
+            "properties"   : {
+                "name"   : "Klondyke Apartments",
+                "address": "500 Montford Ave",
+                "city"   : "Asheville",
+                "state"  : "NC",
+                "zip"    : "28801",
+                "phone"  : "828-257-2677"
+            }
+        },
+        {
+            "type"         : "Feature",
+            "id"           : "leeWalkerHeights",
+            "geometry"     : {
+                "type"       : "Point",
+                "coordinates": [-82.554022, 35.584993]
+            },
+            "geometry_name": "shape",
+            "properties"   : {
+                "name"   : "Lee Walker Heights",
+                "address": "50 Wilbar Ave",
+                "city"   : "Asheville",
+                "state"  : "NC",
+                "zip"    : "28801",
+                "phone"  : "828-257-2668"
+            }
+        },
+        {
+            "type"         : "Feature",
+            "id"           : "lovingFoodsResources",
+            "geometry"     : {
+                "type"       : "Point",
+                "coordinates": [-82.5384708, 35.5762941]
+            },
+            "geometry_name": "shape",
+            "properties"   : {
+                "name"   : "Loving Foods Resources",
+                "address": "123 Kenilworth Rd",
+                "city"   : "Asheville",
+                "state"  : "NC",
+                "zip"    : "28803",
+                "phone"  : "828-255-9282"
+            }
+        },
+        {
+            "type"         : "Feature",
+            "id"           : "mercadoLatino",
+            "geometry"     : {
+                "type"       : "Point",
+                "coordinates": [-82.4729449999999, 35.336319]
+            },
+            "geometry_name": "shape",
+            "properties"   : {
+                "name"   : "Mercado Latino",
+                "address": "1971 Asheville Hwy",
+                "city"   : "Hendersonville",
+                "state"  : "NC",
+                "zip"    : "28791",
+                "phone"  : "828-697-0329"
+            }
+        },
+        {
+            "type"         : "Feature",
+            "id"           : "nuestroCentro",
+            "geometry"     : {
+                "type"       : "Point",
+                "coordinates": [-82.591893, 35.593173]
+            },
+            "geometry_name": "shape",
+            "properties"   : {
+                "name"   : "Nuestro Centro",
+                "address": "441-E North Louisiana Ave",
+                "city"   : "Asheville",
+                "state"  : "NC",
+                "zip"    : "28806",
+                "phone"  : "828-273-6823"
+            }
+        },
+        {
+            "type"         : "Feature",
+            "id"           : "oHenrys",
+            "geometry"     : {
+                "type"       : "Point",
+                "coordinates": [-82.5616929999999, 35.594926]
+            },
+            "geometry_name": "shape",
+            "properties"   : {
+                "name"   : "O. Henry's",
+                "address": "237 Haywood St",
+                "city"   : "Asheville",
+                "state"  : "NC",
+                "zip"    : "28801",
+                "phone"  : "828-254-1891"
+            }
+        },
+        {
+            "type"         : "Feature",
+            "id"           : "pathwaysToChange",
+            "geometry"     : {
+                "type"       : "Point",
+                "coordinates": [-82.551867, 35.6042289]
+            },
+            "geometry_name": "shape",
+            "properties"   : {
+                "name"   : "Pathways to Change",
+                "address": "26 N Liberty St",
+                "city"   : "Asheville",
+                "state"  : "NC",
+                "zip"    : "28801",
+                "phone"  : "828-350-8343"
+            }
+        },
+        {
+            "type"         : "Feature",
+            "id"           : "plannedParenthoodAsheville",
+            "geometry"     : {
+                "type"       : "Point",
+                "coordinates": [-82.547275, 35.5754804]
+            },
+            "geometry_name": "shape",
+            "properties"   : {
+                "name"   : "Planned Parenthood: Asheville Health Center",
+                "address": "603 Biltmore Avenue",
+                "city"   : "Asheville",
+                "state"  : "NC",
+                "zip"    : "28801",
+                "phone"  : "828-252-7928"
+            }
+        },
+        {
+            "type"         : "Feature",
+            "id"           : "pisgahViewApartments",
+            "geometry"     : {
+                "type"       : "Point",
+                "coordinates": [-82.6159271, 35.5692059]
+            },
+            "geometry_name": "shape",
+            "properties"   : {
+                "name"   : "Pisgah View Apartments",
+                "address": "1 Granada S",
+                "city"   : "Asheville",
+                "state"  : "NC",
+                "zip"    : "28806",
+                "phone"  : "828-257-2664"
+            }
+        },
+        {
+            "type"         : "Feature",
+            "id"           : "rosettasKitchen",
+            "geometry"     : {
+                "type"       : "Point",
+                "coordinates": [-82.5519914999999, 35.5957727]
+            },
+            "geometry_name": "shape",
+            "properties"   : {
+                "name"   : "Rosetta's Kitchen",
+                "address": "11 Broadway",
+                "city"   : "Asheville",
+                "state"  : "NC",
+                "zip"    : "28801",
+                "phone"  : "828-232-0738"
+            }
+        },
+        {
+            "type"         : "Feature",
+            "id"           : "scandalsNightclub",
+            "geometry"     : {
+                "type"       : "Point",
+                "coordinates": [-82.557616, 35.593551]
+            },
+            "geometry_name": "shape",
+            "properties"   : {
+                "name"   : "Scandals Nightclub",
+                "address": "11 Grove St",
+                "city"   : "Asheville",
+                "state"  : "NC",
+                "zip"    : "28801",
+                "phone"  : "828-505-1612"
+            }
+        },
+        {
+            "type"         : "Feature",
+            "id"           : "smokeyTavern",
+            "geometry"     : {
+                "type"       : "Point",
+                "coordinates": [-82.5518601, 35.5959716]
+            },
+            "geometry_name": "shape",
+            "properties"   : {
+                "name"   : "Smokey Tavern",
+                "address": "18 Broadway",
+                "city"   : "Asheville",
+                "state"  : "NC",
+                "zip"    : "28801",
+                "phone"  : "828-253-2155"
+            }
+        },
+        {
+            "type"         : "Feature",
+            "id"           : "smoothsDoDropIn",
+            "geometry"     : {
+                "type"       : "Point",
+                "coordinates": [-82.5508634999999, 35.5938855]
+            },
+            "geometry_name": "shape",
+            "properties"   : {
+                "name"   : "Smooth's Do Drop In",
+                "address": "8 Eagle St",
+                "city"   : "Asheville",
+                "state"  : "NC",
+                "zip"    : "28801",
+                "phone"  : "828-285-0557"
+            }
+        },
+        {
+            "type"         : "Feature",
+            "id"           : "soceAfroAmericanHairBraiding",
+            "geometry"     : {
+                "type"       : "Point",
+                "coordinates": [-82.5512405, 35.5937638]
+            },
+            "geometry_name": "shape",
+            "properties"   : {
+                "name"   : "Soce Afro American Hair Braiding",
+                "address": "3 Eagle St",
+                "city"   : "Asheville",
+                "state"  : "NC",
+                "zip"    : "28801",
+                "phone"  : "828-258-1116"
+            }
+        },
+        {
+            "type"         : "Feature",
+            "id"           : "staticAgeRecords",
+            "geometry"     : {
+                "type"       : "Point",
+                "coordinates": [-82.5537957999999, 35.5985839]
+            },
+            "geometry_name": "shape",
+            "properties"   : {
+                "name"   : "Static Age Records",
+                "address": "110 N Lexington Ave",
+                "city"   : "Asheville",
+                "state"  : "NC",
+                "zip"    : "28801",
+                "phone"  : "828-254-3232"
+            }
+        },
+        {
+            "type"         : "Feature",
+            "id"           : "tressasJazzBluesClub",
+            "geometry"     : {
+                "type"       : "Point",
+                "coordinates": [-82.5519252, 35.5962392]
+            },
+            "geometry_name": "shape",
+            "properties"   : {
+                "name"   : "Tressa's Jazz & Blues Club",
+                "address": "28 Broadway",
+                "city"   : "Asheville",
+                "state"  : "NC",
+                "zip"    : "28801",
+                "phone"  : "828-254-7072"
+            }
+        },
+        {
+            "type"         : "Feature",
+            "id"           : "vaVaVoom",
+            "geometry"     : {
+                "type"       : "Point",
+                "coordinates": [-82.552639, 35.59722]
+            },
+            "geometry_name": "shape",
+            "properties"   : {
+                "name"   : "Va Va Voom",
+                "address": "57 Broadway",
+                "city"   : "Asheville",
+                "state"  : "NC",
+                "zip"    : "28801",
+                "phone"  : "828-254-6329"
+            }
+        },
+        {
+            "type"         : "Feature",
+            "id"           : "wncap",
+            "geometry"     : {
+                "type"       : "Point",
+                "coordinates": [-82.521294, 35.566192]
+            },
+            "geometry_name": "shape",
+            "properties"   : {
+                "name"   : "WNCAP",
+                "address": "554 Fairview Rd",
+                "city"   : "Asheville",
+                "state"  : "NC",
+                "zip"    : "28802",
+                "phone"  : "828-252-7489"
+            }
+        },
+        {
+            "type"         : "Feature",
+            "id"           : "wncchs",
+            "geometry"     : {
+                "type"       : "Point",
+                "coordinates": [-82.5519239999999, 35.585741]
+            },
+            "geometry_name": "shape",
+            "properties"   : {
+                "name"   : "WNC Community Health Services",
+                "address": "257 Biltmore Avenue",
+                "city"   : "Asheville",
+                "state"  : "NC",
+                "zip"    : "28801",
+                "phone"  : "828-285-0622"
+            }
+        },
+        {
+            "type"         : "Feature",
+            "id"           : "womenAtRisk",
+            "geometry"     : {
+                "type"       : "Point",
+                "coordinates": [-82.5608283, 35.5931191]
+            },
+            "geometry_name": "shape",
+            "properties"   : {
+                "name"   : "Women at Risk",
+                "address": "218 Patton Avenue",
+                "city"   : "Asheville",
+                "state"  : "NC",
+                "zip"    : "28801",
+                "phone"  : "828-252-2485"
+            }
+        },
+        {
+            "type"         : "Feature",
+            "id"           : "averyCountyHealthDept",
+            "geometry"     : {
+                "type"       : "Point",
+                "coordinates": [-81.9272899999999, 36.085789]
+            },
+            "geometry_name": "shape",
+            "properties"   : {
+                "name"   : "Avery County Health Department",
+                "address": "545 Schultz Circle",
+                "city"   : "Newland",
+                "state"  : "NC",
+                "zip"    : "28657",
+                "phone"  : "828-733-6031"
+            }
+        },
+        {
+            "type"         : "Feature",
+            "id"           : "buncombeCountyHealthDept",
+            "geometry"     : {
+                "type"       : "Point",
+                "coordinates": [-82.5545879999999, 35.59302]
+            },
+            "geometry_name": "shape",
+            "properties"   : {
+                "name"   : "Buncombe County Health Department",
+                "address": "40 Coxe Avenue",
+                "city"   : "Asheville",
+                "state"  : "NC",
+                "zip"    : "28801",
+                "phone"  : "828-250-5109"
+            }
+        },
+        {
+            "type"         : "Feature",
+            "id"           : "cherokeeCountyHealthDept",
+            "geometry"     : {
+                "type"       : "Point",
+                "coordinates": [-83.838619, 35.201116]
+            },
+            "geometry_name": "shape",
+            "properties"   : {
+                "name"   : "Cherokee County Health Department",
+                "address": "224 Main Street",
+                "city"   : "Andrews",
+                "state"  : "NC",
+                "zip"    : "28901",
+                "phone"  : "828-837-7486"
+            }
+        },
+        {
+            "type"         : "Feature",
+            "id"           : "cherokeeIndianHospital",
+            "geometry"     : {
+                "type"       : "Point",
+                "coordinates": [-83.3235077, 35.4846892]
+            },
+            "geometry_name": "shape",
+            "properties"   : {
+                "name"   : "Cherokee Indian Hospital",
+                "address": "1 Hospital Road",
+                "city"   : "Whittier",
+                "state"  : "NC",
+                "zip"    : "28789",
+                "phone"  : "828-497-9163"
+            }
+        },
+        {
+            "type"         : "Feature",
+            "id"           : "clayCountyHealthDept",
+            "geometry"     : {
+                "type"       : "Point",
+                "coordinates": [-83.8162614, 35.0468533]
+            },
+            "geometry_name": "shape",
+            "properties"   : {
+                "name"   : "Clay County Health Department",
+                "address": "1 Riverside Circle",
+                "city"   : "Hayesville",
+                "state"  : "NC",
+                "zip"    : "28904",
+                "phone"  : "828-389-8052"
+            }
+        },
+        {
+            "type"         : "Feature",
+            "id"           : "clevelandCountyHealthDept",
+            "geometry"     : {
+                "type"       : "Point",
+                "coordinates": [-81.5349896, 35.3020113]
+            },
+            "geometry_name": "shape",
+            "properties"   : {
+                "name"   : "Cleveland County Health Department",
+                "address": "315 East Grover Street",
+                "city"   : "Shelby",
+                "state"  : "NC",
+                "zip"    : "28150",
+                "phone"  : "704-484-5274"
+            }
+        },
+        {
+            "type"         : "Feature",
+            "id"           : "grahamCountyHealthDept",
+            "geometry"     : {
+                "type"       : "Point",
+                "coordinates": [-83.8064019999999, 35.322183]
+            },
+            "geometry_name": "shape",
+            "properties"   : {
+                "name"   : "Graham County Health Department",
+                "address": "21 South Main Street",
+                "city"   : "Robbinsville",
+                "state"  : "NC",
+                "zip"    : "28771",
+                "phone"  : "828-479-7900"
+            }
+        },
+        {
+            "type"         : "Feature",
+            "id"           : "haywoodCountyHealthDept",
+            "geometry"     : {
+                "type"       : "Point",
+                "coordinates": [-83.7965278941099, 35.3182884357415]
+            },
+            "geometry_name": "shape",
+            "properties"   : {
+                "name"   : "Haywood County Health Department",
+                "address": "157 Paragon Parkway #800",
+                "city"   : "Clyde",
+                "state"  : "NC",
+                "zip"    : "28721",
+                "phone"  : "828-452-6675"
+            }
+        },
+        {
+            "type"         : "Feature",
+            "id"           : "hendersonCountyHealthDept",
+            "geometry"     : {
+                "type"       : "Point",
+                "coordinates": [-82.4409986, 35.3026402]
+            },
+            "geometry_name": "shape",
+            "properties"   : {
+                "name"   : "Henderson County Health Department",
+                "address": "1200 Spartanburg Highway",
+                "city"   : "Hendersonville",
+                "state"  : "NC",
+                "zip"    : "28792",
+                "phone"  : "828-692-4223"
+            }
+        },
+        {
+            "type"         : "Feature",
+            "id"           : "jacksonCountyHealthDept",
+            "geometry"     : {
+                "type"       : "Point",
+                "coordinates": [-83.2052487999999, 35.3889106]
+            },
+            "geometry_name": "shape",
+            "properties"   : {
+                "name"   : "Jackson County Health Department",
+                "address": "538 Scotts Creek Road",
+                "city"   : "Sylva",
+                "state"  : "NC",
+                "zip"    : "28779",
+                "phone"  : "828-586-8994"
+            }
+        },
+        {
+            "type"         : "Feature",
+            "id"           : "maconCountyHealthDept",
+            "geometry"     : {
+                "type"       : "Point",
+                "coordinates": [-83.3703067, 35.1950343]
+            },
+            "geometry_name": "shape",
+            "properties"   : {
+                "name"   : "Macon County Health Department",
+                "address": "1830 Lakeside Drive",
+                "city"   : "Franklin",
+                "state"  : "NC",
+                "zip"    : "28734",
+                "phone"  : "828-349-2420"
+            }
+        },
+        {
+            "type"         : "Feature",
+            "id"           : "madisonCountyHealthDept",
+            "geometry"     : {
+                "type"       : "Point",
+                "coordinates": [-82.6568189999999, 35.80471]
+            },
+            "geometry_name": "shape",
+            "properties"   : {
+                "name"   : "Madison County Health Department",
+                "address": "493 Medical Park Dr",
+                "city"   : "Marshall",
+                "state"  : "NC",
+                "zip"    : "28753",
+                "phone"  : "828-649-3531"
+            }
+        },
+        {
+            "type"         : "Feature",
+            "id"           : "mcdowellCountyHealthDept",
+            "geometry"     : {
+                "type"       : "Point",
+                "coordinates": [-82.0281559999999, 35.666345]
+            },
+            "geometry_name": "shape",
+            "properties"   : {
+                "name"   : "McDowell County Health Department",
+                "address": "408 Spaulding Road",
+                "city"   : "Marion",
+                "state"  : "NC",
+                "zip"    : "28752",
+                "phone"  : "828-652-6811"
+            }
+        },
+        {
+            "type"         : "Feature",
+            "id"           : "mitchellCountyHealthDept",
+            "geometry"     : {
+                "type"       : "Point",
+                "coordinates": [-82.1587351, 36.0156735]
+            },
+            "geometry_name": "shape",
+            "properties"   : {
+                "name"   : "Mitchell County Health Department",
+                "address": "130 Forest Srv Road",
+                "city"   : "Bakersville",
+                "state"  : "NC",
+                "zip"    : "28705",
+                "phone"  : "828-688-2371"
+            }
+        },
+        {
+            "type"         : "Feature",
+            "id"           : "polkCountyHealthDept",
+            "geometry"     : {
+                "type"       : "Point",
+                "coordinates": [-82.1976687999999, 35.2495046]
+            },
+            "geometry_name": "shape",
+            "properties"   : {
+                "name"   : "Polk County Health Department",
+                "address": "161 Walker Street",
+                "city"   : "Columbus",
+                "state"  : "NC",
+                "zip"    : "28722",
+                "phone"  : "828-894-8371"
+            }
+        },
+        {
+            "type"         : "Feature",
+            "id"           : "rutherfordCountyHealthDept",
+            "geometry"     : {
+                "type"       : "Point",
+                "coordinates": [-81.9107783, 35.3487925]
+            },
+            "geometry_name": "shape",
+            "properties"   : {
+                "name"   : "Rutherford County Health Department",
+                "address": "221 Callahan Koon Road",
+                "city"   : "Spindale",
+                "state"  : "NC",
+                "zip"    : "28160",
+                "phone"  : "828-287-6101"
+            }
+        },
+        {
+            "type"         : "Feature",
+            "id"           : "swainCountyHealthDept",
+            "geometry"     : {
+                "type"       : "Point",
+                "coordinates": [-83.4443519999999, 35.435981]
+            },
+            "geometry_name": "shape",
+            "properties"   : {
+                "name"   : "Swain County Health Department",
+                "address": "545 Center Street",
+                "city"   : "Bryson City",
+                "state"  : "NC",
+                "zip"    : "28713",
+                "phone"  : "828-488-3198"
+            }
+        },
+        {
+            "type"         : "Feature",
+            "id"           : "transylvaniaCountyHealthDept",
+            "geometry"     : {
+                "type"       : "Point",
+                "coordinates": [-82.7338250999999, 35.2315266]
+            },
+            "geometry_name": "shape",
+            "properties"   : {
+                "name"   : "Transylvania County Health Department",
+                "address": "98 East Morgan Street",
+                "city"   : "Brevard",
+                "state"  : "NC",
+                "zip"    : "28712",
+                "phone"  : "828-884-3135"
+            }
+        },
+        {
+            "type"         : "Feature",
+            "id"           : "yanceyCountyHealthDept",
+            "geometry"     : {
+                "type"       : "Point",
+                "coordinates": [-82.300961, 35.9173357]
+            },
+            "geometry_name": "shape",
+            "properties"   : {
+                "name"   : "Yancey County Health Department",
+                "address": "202 Medical Campus Dr",
+                "city"   : "Burnsville",
+                "state"  : "NC",
+                "zip"    : "28714",
+                "phone"  : "828-682-6118"
+            }
+        }
+    ],
+    "crs"     : {
+        "type"      : "EPSG",
+        "properties": {
+            "code": "4326"
+        }
     },
-	{
-      "type": "Feature",
-      "id": "babygirls",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.5544793999999,
-          35.6102349
-        ]
-      },
-      "geometry_name": "shape",
-      "properties": {
-        "name": "Babygirl's",
-        "address": "329 Merrimon Ave",
-        "city":"Asheville",
-		"state":"NC",
-		"zip":"28801",
-		"phone":"828-232-4474"
-      }
-    },
-	{
-      "type": "Feature",
-      "id": "battleCatCoffeeBar",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.5767129999999,
-          35.577774
-        ]
-      },
-      "geometry_name": "shape",
-      "properties": {
-        "name": "BattleCat Cofee Bar",
-        "address": "232 Haywood Rd",
-        "city":"Asheville",
-		"state":"NC",
-		"zip":"28806",
-		"phone":"828-713-3885"
-      }
-    },
-	{
-      "type": "Feature",
-      "id": "clubHairspray",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.5826543902636,
-          35.5775102795123
-        ]
-      },
-      "geometry_name": "shape",
-      "properties": {
-        "name": "Club Hairspray",
-        "address": "38 N French Broad Ave",
-        "city":"Asheville",
-		"state":"NC",
-		"zip":"28801",
-		"phone":"828-258-2027"
-      }
-    },
-	{
-      "type": "Feature",
-      "id": "elCentro",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.457969,
-          35.318338
-        ]
-      },
-      "geometry_name": "shape",
-      "properties": {
-        "name": "El Centro",
-        "address": "508 N Grove St",
-        "city":"Hendersonvile",
-		"state":"NC",
-		"zip":"28792",
-		"phone":"828-693-1981"
-      }
-    },
-
-	{ "type": "Feature", "id": "elCharitoMexicanStore","geometry": { "type": "Point", "coordinates": [-82.3760179999999, 35.328724]},"geometry_name": "shape", "properties": {"name": "El Charrito Mexican Store","address": "2000 Dana Rd","city": "Hendersonville", "state": "NC", "zip": "28792", "phone": "828-685-8833" } },
-	
-	{ "type": "Feature", "id": "firestormCafe","geometry": { "type": "Point", "coordinates": [-82.555228, 35.594008]},"geometry_name": "shape", "properties": {"name": "Firestorm Café","address": "48 Commerce St","city": "Asheville", "state": "NC", "zip": "28801", "phone": "828-255-8115" } }, 
-
-	{ "type": "Feature", "id": "flavorzBarberShop","geometry": { "type": "Point", "coordinates": [-82.5523799999999, 35.58632]},"geometry_name": "shape", "properties": {"name": "Flavorz Barber Shop","address": "255 Short Coxe Ave","city": "Asheville", "state": "NC", "zip": "28801", "phone": "828-254-6455" } }, 
-
-	{ "type": "Feature", "id": "goodStuffCafe","geometry": { "type": "Point", "coordinates": [-82.6851083999999, 35.7977721]},"geometry_name": "shape", "properties": {"name": "Good Stuff Café","address": "68 N Main St","city": "Marshall", "state": "NC", "zip": "28753", "phone": "828-649-9711" } }, 
-
-	{ "type": "Feature", "id": "greensMiniMart","geometry": { "type": "Point", "coordinates": [-82.562985, 35.579237]},"geometry_name": "shape", "properties": {"name": "Green's Mini-Mart","address": "414 Depot St","city": "Asheville", "state": "NC", "zip": "28801", "phone": "828-252-4440" } }, 
-
-	{ "type": "Feature", "id": "harvestMoon","geometry": { "type": "Point", "coordinates": [-82.828118, 35.892769]},"geometry_name": "shape", "properties": {"name": "Harvest Moon","address": "81 Bridge Street","city": "Hot Springs", "state": "NC", "zip": "28743", "phone": "828-622-3343" } }, 
-
-	{ "type": "Feature", "id": "hillcrestApartments","geometry": { "type": "Point", "coordinates": [-82.5707901, 35.5936664]},"geometry_name": "shape", "properties": {"name": "Hillcrest Apartments","address": "100 Atkinson St","city": "Asheville", "state": "NC", "zip": "28801", "phone": "828-257-2666" } }, 
-
-	{ "type": "Feature", "id": "indoApparelGifts","geometry": { "type": "Point", "coordinates": [-82.5517429999999, 35.594205]},"geometry_name": "shape", "properties": {"name": "Indo Apparel & Gifts","address": "9 Biltmore Ave","city": "Asheville", "state": "NC", "zip": "28801", "phone": "828-281-8140" } }, 
-
-	{ "type": "Feature", "id": "instantKarma","geometry": { "type": "Point", "coordinates": [-82.5536804999999, 35.5977542]},"geometry_name": "shape", "properties": {"name": "Instant Karma","address": " 78 N Lexington Ave","city": "Asheville", "state": "NC", "zip": "28801", "phone": "828-285-8999" } }, 
-
-	{ "type": "Feature", "id": "izzysCoffeeDen","geometry": { "type": "Point", "coordinates": [-82.5533904999999, 35.5973845]},"geometry_name": "shape", "properties": {"name": "Izzy's Coffee Den","address": " 74 N Lexington Ave","city": "Asheville", "state": "NC", "zip": "28801", "phone": "828-258-2004" } },
-
-	{ "type": "Feature", "id": "jrsBarberShop","geometry": { "type": "Point", "coordinates": [-82.5513373, 35.5937405]},"geometry_name": "shape", "properties": {"name": "JR'S Barber Shop","address": "1 Eagle St","city": "Asheville", "state": "NC", "zip": "28801", "phone": "828-251-2200" } }, 
-
-	{ "type": "Feature", "id": "klondykeApartments","geometry": { "type": "Point", "coordinates": [-82.5714256, 35.6083994]},"geometry_name": "shape", "properties": {"name": "Klondyke Apartments","address": "500 Montford Ave","city": "Asheville", "state": "NC", "zip": "28801", "phone": "828-257-2677" } }, 
-
-	{ "type": "Feature", "id": "leeWalkerHeights","geometry": { "type": "Point", "coordinates": [-82.554022, 35.584993]},"geometry_name": "shape", "properties": {"name": "Lee Walker Heights","address": "50 Wilbar Ave","city": "Asheville", "state": "NC", "zip": "28801", "phone": "828-257-2668" } }, 
-
-	{ "type": "Feature", "id": "lovingFoodsResources","geometry": { "type": "Point", "coordinates": [-82.5384708, 35.5762941]},"geometry_name": "shape", "properties": {"name": "Loving Foods Resources","address": "123 Kenilworth Rd","city": "Asheville", "state": "NC", "zip": "28803", "phone": "828-255-9282" } }, 
-
-	{ "type": "Feature", "id": "mercadoLatino","geometry": { "type": "Point", "coordinates": [-82.4729449999999, 35.336319]},"geometry_name": "shape", "properties": {"name": "Mercado Latino","address": "1971 Asheville Hwy","city": "Hendersonville", "state": "NC", "zip": "28791", "phone": "828-697-0329" } }, 
-
-	{ "type": "Feature", "id": "nuestroCentro","geometry": { "type": "Point", "coordinates": [-82.591893, 35.593173]},"geometry_name": "shape", "properties": {"name": "Nuestro Centro","address": "441-E North Louisiana Ave","city": "Asheville", "state": "NC", "zip": "28806", "phone": "828-273-6823" } }, 
-
-	{ "type": "Feature", "id": "oHenrys","geometry": { "type": "Point", "coordinates": [-82.5616929999999, 35.594926]},"geometry_name": "shape", "properties": {"name": "O. Henry's","address": "237 Haywood St","city": "Asheville", "state": "NC", "zip": "28801", "phone": "828-254-1891" } }, 
-
-	{ "type": "Feature", "id": "pathwaysToChange","geometry": { "type": "Point", "coordinates": [-82.551867, 35.6042289]},"geometry_name": "shape", "properties": {"name": "Pathways to Change","address": "26 N Liberty St","city": "Asheville", "state": "NC", "zip": "28801", "phone": "828-350-8343" } }, 
-
-	{ "type": "Feature", "id": "plannedParenthoodAsheville","geometry": { "type": "Point", "coordinates": [-82.547275, 35.5754804]},"geometry_name": "shape", "properties": {"name": "Planned Parenthood: Asheville Health Center","address": "603 Biltmore Avenue","city": "Asheville", "state": "NC", "zip": "28801", "phone": "828-252-7928" } }, 
-
-	{ "type": "Feature", "id": "pisgahViewApartments","geometry": { "type": "Point", "coordinates": [-82.6159271, 35.5692059]},"geometry_name": "shape", "properties": {"name": "Pisgah View Apartments","address": "1 Granada S","city": "Asheville", "state": "NC", "zip": "28806", "phone": "828-257-2664" } }, 
-
-	{ "type": "Feature", "id": "rosettasKitchen","geometry": { "type": "Point", "coordinates": [-82.5519914999999, 35.5957727]},"geometry_name": "shape", "properties": {"name": "Rosetta's Kitchen","address": "11 Broadway","city": "Asheville", "state": "NC", "zip": "28801", "phone": "828-232-0738" } }, 
-
-	{ "type": "Feature", "id": "scandalsNightclub","geometry": { "type": "Point", "coordinates": [-82.557616, 35.593551]},"geometry_name": "shape", "properties": {"name": "Scandals Nightclub","address": "11 Grove St","city": "Asheville", "state": "NC", "zip": "28801", "phone": "828-505-1612" } }, 
-
-	{ "type": "Feature", "id": "smokeyTavern","geometry": { "type": "Point", "coordinates": [-82.5518601, 35.5959716]},"geometry_name": "shape", "properties": {"name": "Smokey Tavern","address": "18 Broadway","city": "Asheville", "state": "NC", "zip": "28801", "phone": "828-253-2155" } }, 
-
-	{ "type": "Feature", "id": "smoothsDoDropIn","geometry": { "type": "Point", "coordinates": [-82.5508634999999, 35.5938855]},"geometry_name": "shape", "properties": {"name": "Smooth's Do Drop In","address": "8 Eagle St","city": "Asheville", "state": "NC", "zip": "28801", "phone": "828-285-0557" } }, 
-
-	{ "type": "Feature", "id": "soceAfroAmericanHairBraiding","geometry": { "type": "Point", "coordinates": [-82.5512405, 35.5937638]},"geometry_name": "shape", "properties": {"name": "Soce Afro American Hair Braiding","address": "3 Eagle St","city": "Asheville", "state": "NC", "zip": "28801", "phone": "828-258-1116" } }, 
-
-	{ "type": "Feature", "id": "staticAgeRecords","geometry": { "type": "Point", "coordinates": [-82.5537957999999, 35.5985839]},"geometry_name": "shape", "properties": {"name": "Static Age Records","address": "110 N Lexington Ave","city": "Asheville", "state": "NC", "zip": "28801", "phone": "828-254-3232" } }, 
-
-	{ "type": "Feature", "id": "tressasJazzBluesClub","geometry": { "type": "Point", "coordinates": [-82.5519252, 35.5962392]},"geometry_name": "shape", "properties": {"name": "Tressa's Jazz & Blues Club","address": "28 Broadway","city": "Asheville", "state": "NC", "zip": "28801", "phone": "828-254-7072" } }, 
-
-	{ "type": "Feature", "id": "vaVaVoom","geometry": { "type": "Point", "coordinates": [-82.552639, 35.59722]},"geometry_name": "shape", "properties": {"name": "Va Va Voom","address": "57 Broadway","city": "Asheville", "state": "NC", "zip": "28801", "phone": "828-254-6329" } }, 
-
-	{ "type": "Feature", "id": "wncap","geometry": { "type": "Point", "coordinates": [-82.521294, 35.566192]},"geometry_name": "shape", "properties": {"name": "WNCAP","address": "554 Fairview Rd","city": "Asheville", "state": "NC", "zip": "28802", "phone": "828-252-7489" } }, 
-
-	{ "type": "Feature", "id": "wncchs","geometry": { "type": "Point", "coordinates": [-82.5519239999999, 35.585741]},"geometry_name": "shape", "properties": {"name": "WNC Community Health Services","address": "257 Biltmore Avenue","city": "Asheville", "state": "NC", "zip": "28801", "phone": "828-285-0622" } },
-
-	{ "type": "Feature", "id": "womenAtRisk","geometry": { "type": "Point", "coordinates": [-82.5608283, 35.5931191]},"geometry_name": "shape", "properties": {"name": "Women at Risk","address": "218 Patton Avenue","city": "Asheville", "state": "NC", "zip": "28801", "phone": "828-252-2485" } }, 
-
-	{ "type": "Feature", "id": "averyCountyHealthDept","geometry": { "type": "Point", "coordinates": [-81.9272899999999, 36.085789]},"geometry_name": "shape", "properties": {"name": "Avery County Health Department","address": "545 Schultz Circle","city": "Newland", "state": "NC", "zip": "28657", "phone": "828-733-6031" } }, 
-
-	{ "type": "Feature", "id": "buncombeCountyHealthDept","geometry": { "type": "Point", "coordinates": [-82.5545879999999, 35.59302]},"geometry_name": "shape", "properties": {"name": "Buncombe County Health Department","address": "40 Coxe Avenue","city": "Asheville", "state": "NC", "zip": "28801", "phone": "828-250-5109" } }, 
-
-	{ "type": "Feature", "id": "cherokeeCountyHealthDept","geometry": { "type": "Point", "coordinates": [-83.838619, 35.201116]},"geometry_name": "shape", "properties": {"name": "Cherokee County Health Department","address": "224 Main Street","city": "Andrews", "state": "NC", "zip": "28901", "phone": "828-837-7486" } }, 
-
-	{ "type": "Feature", "id": "cherokeeIndianHospital","geometry": { "type": "Point", "coordinates": [-83.3235077, 35.4846892]},"geometry_name": "shape", "properties": {"name": "Cherokee Indian Hospital","address": "1 Hospital Road","city": "Whittier", "state": "NC", "zip": "28789", "phone": "828-497-9163" } }, 
-
-	{ "type": "Feature", "id": "clayCountyHealthDept","geometry": { "type": "Point", "coordinates": [-83.8162614, 35.0468533]},"geometry_name": "shape", "properties": {"name": "Clay County Health Department","address": "1 Riverside Circle","city": "Hayesville", "state": "NC", "zip": "28904", "phone": "828-389-8052" } }, 
-
-	{ "type": "Feature", "id": "clevelandCountyHealthDept","geometry": { "type": "Point", "coordinates": [-81.5349896, 35.3020113]},"geometry_name": "shape", "properties": {"name": "Cleveland County Health Department","address": "315 East Grover Street","city": "Shelby", "state": "NC", "zip": "28150", "phone": "704-484-5274" } }, 
-
-	{ "type": "Feature", "id": "grahamCountyHealthDept","geometry": { "type": "Point", "coordinates": [-83.8064019999999, 35.322183]},"geometry_name": "shape", "properties": {"name": "Graham County Health Department","address": "21 South Main Street","city": "Robbinsville", "state": "NC", "zip": "28771", "phone": "828-479-7900" } }, 
-
-	{ "type": "Feature", "id": "haywoodCountyHealthDept","geometry": { "type": "Point", "coordinates": [-83.7965278941099, 35.3182884357415]},"geometry_name": "shape", "properties": {"name": "Haywood County Health Department","address": "157 Paragon Parkway #800","city": "Clyde", "state": "NC", "zip": "28721", "phone": "828-452-6675" } }, 
-
-	{ "type": "Feature", "id": "hendersonCountyHealthDept","geometry": { "type": "Point", "coordinates": [-82.4409986, 35.3026402]},"geometry_name": "shape", "properties": {"name": "Henderson County Health Department","address": "1200 Spartanburg Highway","city": "Hendersonville", "state": "NC", "zip": "28792", "phone": "828-692-4223" } }, 
-
-	{ "type": "Feature", "id": "jacksonCountyHealthDept","geometry": { "type": "Point", "coordinates": [-83.2052487999999, 35.3889106]},"geometry_name": "shape", "properties": {"name": "Jackson County Health Department","address": "538 Scotts Creek Road","city": "Sylva", "state": "NC", "zip": "28779", "phone": "828-586-8994" } }, 
-
-	{ "type": "Feature", "id": "maconCountyHealthDept","geometry": { "type": "Point", "coordinates": [-83.3703067, 35.1950343]},"geometry_name": "shape", "properties": {"name": "Macon County Health Department","address": "1830 Lakeside Drive","city": "Franklin", "state": "NC", "zip": "28734", "phone": "828-349-2420" } }, 
-
-	{ "type": "Feature", "id": "madisonCountyHealthDept","geometry": { "type": "Point", "coordinates": [-82.6568189999999, 35.80471]},"geometry_name": "shape", "properties": {"name": "Madison County Health Department","address": "493 Medical Park Dr","city": "Marshall", "state": "NC", "zip": "28753", "phone": "828-649-3531" } }, 
-
-	{ "type": "Feature", "id": "mcdowellCountyHealthDept","geometry": { "type": "Point", "coordinates": [-82.0281559999999, 35.666345]},"geometry_name": "shape", "properties": {"name": "McDowell County Health Department","address": "408 Spaulding Road","city": "Marion", "state": "NC", "zip": "28752", "phone": "828-652-6811" } }, 
-
-	{ "type": "Feature", "id": "mitchellCountyHealthDept","geometry": { "type": "Point", "coordinates": [-82.1587351, 36.0156735]},"geometry_name": "shape", "properties": {"name": "Mitchell County Health Department","address": "130 Forest Srv Road","city": "Bakersville", "state": "NC", "zip": "28705", "phone": "828-688-2371" } },
-
-	{ "type": "Feature", "id": "polkCountyHealthDept","geometry": { "type": "Point", "coordinates": [-82.1976687999999, 35.2495046]},"geometry_name": "shape", "properties": {"name": "Polk County Health Department","address": "161 Walker Street","city": "Columbus", "state": "NC", "zip": "28722", "phone": "828-894-8371" } }, 
-
-	{ "type": "Feature", "id": "rutherfordCountyHealthDept","geometry": { "type": "Point", "coordinates": [-81.9107783, 35.3487925]},"geometry_name": "shape", "properties": {"name": "Rutherford County Health Department","address": "221 Callahan Koon Road","city": "Spindale", "state": "NC", "zip": "28160", "phone": "828-287-6101" } }, 
-
-	{ "type": "Feature", "id": "swainCountyHealthDept","geometry": { "type": "Point", "coordinates": [-83.4443519999999, 35.435981]},"geometry_name": "shape", "properties": {"name": "Swain County Health Department","address": "545 Center Street","city": "Bryson City", "state": "NC", "zip": "28713", "phone": "828-488-3198" } }, 
-
-	{ "type": "Feature", "id": "transylvaniaCountyHealthDept","geometry": { "type": "Point", "coordinates": [-82.7338250999999, 35.2315266]},"geometry_name": "shape", "properties": {"name": "Transylvania County Health Department","address": "98 East Morgan Street","city": "Brevard", "state": "NC", "zip": "28712", "phone": "828-884-3135" } }, 
-
-	{ "type": "Feature", "id": "yanceyCountyHealthDept","geometry": { "type": "Point", "coordinates": [-82.300961, 35.9173357]},"geometry_name": "shape", "properties": {"name": "Yancey County Health Department","address": "202 Medical Campus Dr","city": "Burnsville", "state": "NC", "zip": "28714", "phone": "828-682-6118" } } 
-	
-  ],
-  "crs": {
-    "type": "EPSG",
-    "properties": {
-      "code": "4326"
-    }
-  },
-  "bbox": [
-    -82.55716707405787,
-    35.59386149112946,
-    -82.54846914377977,
-    35.59842183685853
-  ]
+    "bbox"    : [
+        -82.55716707405787,
+        35.59386149112946,
+        -82.54846914377977,
+        35.59842183685853
+    ]
 }
